@@ -1,0 +1,151 @@
+.box-blog-details {
+  padding: 6.25em 0;
+}
+.box-blog-details .blog-details {
+  max-width: 95em;
+  margin-right: auto;
+  margin-left: auto;
+}
+.box-blog-details .blog-details .content-blog-details {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.box-blog-details .blog-details .content-blog-details article {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 3.125em;
+  padding-bottom: 2.5em;
+  border: solid;
+  border-width: 0 0 0.063em;
+  border-image-source: linear-gradient(90deg, rgba(209, 208, 207, 0.6), rgba(209, 208, 207, 0.3), rgba(209, 208, 207, 0));
+  border-image-slice: 1;
+}
+.box-blog-details .blog-details .content-blog-details article .box-img {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 3.125em;
+  padding-bottom: 2.5em;
+  border: solid;
+  border-width: 0 0 0.063em;
+  border-image-source: linear-gradient(90deg, rgba(209, 208, 207, 0.6), rgba(209, 208, 207, 0.3), rgba(209, 208, 207, 0));
+  border-image-slice: 1;
+}
+.box-blog-details .blog-details .content-blog-details article .box-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.box-blog-details .blog-details .content-blog-details article .box-details {
+  width: 100%;
+}
+.box-blog-details .blog-details .content-blog-details article .box-details .box-date-time {
+  margin: 0 0 1.25em;
+  padding: 0;
+  line-height: 1em;
+}
+.box-blog-details .blog-details .content-blog-details article .box-details .box-date-time .date {
+  color: #fff;
+  text-transform: uppercase;
+  font-style: italic;
+  margin: 0 0.625em 0.625em 0;
+  font-size: 0.875em;
+  border-left: 0.25em solid #e50914;
+  background: transparent linear-gradient(270deg, rgba(11, 1, 2, 0), rgba(255, 55, 65, 0.3));
+  padding: 0.625em 0.625em 0.625em 0.938em;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+.box-blog-details .blog-details .content-blog-details article .box-details .box-date-time .date i {
+  margin-right: 4px;
+}
+.box-blog-details .blog-details .content-blog-details .comment {
+  margin-top: 2.8125em;
+  clear: both;
+}
+.box-blog-details .blog-details .content-blog-details .comment .box-comment {
+  position: relative;
+  padding-bottom: 0;
+}
+.box-blog-details .blog-details .content-blog-details .comment .box-comment h3 {
+  margin-bottom: 0.625em;
+  font-size: 2.369em;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment {
+  display: block;
+  width: 100%;
+}
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment p {
+  color: #d1d0cf;
+}
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input,
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input[type=email],
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input[type=password],
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input[type=text],
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment textarea {
+  width: 100%;
+  float: left;
+  height: 4.5em;
+  font-size: 0.875em;
+  line-height: 1.5em;
+  padding: 0 1.5em;
+  background: #111;
+  border: 0.0625em solid #111;
+  border-radius: 0;
+  color: #e50914;
+  transition: all 0.5s ease-in-out;
+  outline: medium none !important;
+}
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input::-moz-placeholder, .box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input[type=email]::-moz-placeholder, .box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input[type=password]::-moz-placeholder, .box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input[type=text]::-moz-placeholder, .box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment textarea::-moz-placeholder {
+  font-size: 1rem !important;
+  color: #d1d0cf;
+}
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input::placeholder,
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input[type=email]::placeholder,
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input[type=password]::placeholder,
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input[type=text]::placeholder,
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment textarea::placeholder {
+  font-size: 1rem !important;
+  color: #d1d0cf;
+}
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input:focus,
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input[type=email]:focus,
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input[type=password]:focus,
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment input[type=text]:focus,
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment textarea:focus {
+  border: 0.0625em solid #e50914;
+}
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment .comment-form-comment {
+  margin-top: 2em;
+  display: inline-block;
+  width: 100%;
+}
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment .comment-form-comment textarea {
+  background: #111;
+  padding: 1.5em;
+  height: 9.375em;
+  border-radius: 0;
+  margin: 1.875em 0;
+}
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment .form-detail {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 2em;
+}
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment .form-submit button {
+  font-size: 18px;
+}
+.box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment .form-submit button i {
+  margin-left: 4px;
+}
+
+@media only screen and (max-width: 769px) {
+  .box-blog-details .blog-details .content-blog-details .comment .box-comment .form-comment .form-detail {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=blogDetails.css.map */

@@ -1,0 +1,111 @@
+.breadcrumb-parent {
+  display: block;
+  padding: 9.375em 0 5em;
+  z-index: 1;
+  text-align: center;
+  position: relative;
+  background-image: url("../../../public/images/Breadcrumb/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #191919 !important;
+}
+.breadcrumb-parent .container {
+  padding: 0 6.25em;
+}
+.breadcrumb-parent .container .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.breadcrumb-parent .container .row .breadcrumb {
+  padding: 2.813em 0;
+  position: relative;
+  z-index: 2;
+}
+.breadcrumb-parent .container .row .breadcrumb h2 {
+  font-size: 3.157em;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+  margin: 0;
+}
+.breadcrumb-parent .container .row .breadcrumb .main-breadcrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background: transparent;
+  padding: 0;
+  margin-bottom: 0;
+  margin-top: 0.9375em;
+  list-style: none;
+  border-radius: 0.25em;
+}
+.breadcrumb-parent .container .row .breadcrumb .main-breadcrumb li {
+  word-break: break-all;
+  display: inline-block;
+}
+.breadcrumb-parent .container .row .breadcrumb .main-breadcrumb li a {
+  color: #e50914;
+  font-weight: 700;
+  text-decoration: none;
+  outline: medium none !important;
+  transition: all 0.5s ease-in-out;
+  background-color: transparent;
+  cursor: pointer;
+}
+.breadcrumb-parent .container .row .breadcrumb .main-breadcrumb .active {
+  position: relative;
+  font-weight: 700;
+  color: #e50914;
+  padding-left: 0.5em;
+}
+.breadcrumb-parent .container .row .breadcrumb .main-breadcrumb i {
+  color: #e50914;
+  padding-left: 0.5em;
+}
+
+@media only screen and (max-width: 426px) {
+  .breadcrumb-parent {
+    padding: 3.375em 0 1em !important;
+  }
+  .breadcrumb-parent .container {
+    padding: 0 1em !important;
+  }
+  .breadcrumb-parent .container .row .breadcrumb h2 {
+    font-size: 2em !important;
+  }
+  .breadcrumb-parent .container .row .breadcrumb .main-breadcrumb {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .breadcrumb-parent {
+    padding: 5.375em 0 3em !important;
+  }
+  .breadcrumb-parent .container {
+    padding: 0 1.25em !important;
+  }
+  .breadcrumb-parent .container .row .breadcrumb h2 {
+    font-size: 2.157em !important;
+  }
+  .breadcrumb-parent .container .row .breadcrumb .main-breadcrumb {
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .breadcrumb-parent {
+    padding: 5.375em 0 3em;
+  }
+  .breadcrumb-parent .container {
+    padding: 0 2.25em;
+  }
+  .breadcrumb-parent .container .row .breadcrumb h2 {
+    font-size: 2.5em;
+  }
+  .breadcrumb-parent .container .row .breadcrumb .main-breadcrumb {
+    flex-wrap: wrap;
+  }
+}/*# sourceMappingURL=breadcrumb.css.map */

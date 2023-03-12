@@ -1,0 +1,25 @@
+.scroll-button-top {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  z-index: 10001;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  padding: 0;
+  transition: all 0.5s ease-in-out;
+}
+.scroll-button-top i {
+  font-size: 20px;
+  line-height: 20px;
+  background: none;
+  color: #fff;
+}
+.scroll-button-top:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+  box-shadow: 0 2px 8px 2px rgba(178, 178, 178, 0.189);
+}/*# sourceMappingURL=scrollButton.css.map */

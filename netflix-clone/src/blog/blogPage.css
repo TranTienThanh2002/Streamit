@@ -1,0 +1,47 @@
+.blog .container-blog .box-blog {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3.125em 0.938em;
+}
+.blog .container-blog .box-blog .blog-item {
+  margin-bottom: 1.875em;
+  padding-bottom: 1.25em;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 3.125em;
+  padding-bottom: 2.5em;
+  border: solid;
+  border-width: 0 0 0.063em;
+  border-image-source: linear-gradient(90deg, rgba(209, 208, 207, 0.6), rgba(209, 208, 207, 0.3), rgba(209, 208, 207, 0));
+  border-image-slice: 1;
+}
+.blog .container-blog .load-more {
+  padding: 0.938em;
+  margin: 0;
+}
+.blog .container-blog .load-more .loadMore {
+  background-color: #e50831;
+  outline: none;
+  border: none;
+  padding: 12px 40px;
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .blog .container-blog .box-blog {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .blog .container-blog .box-blog {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 426px) {
+  .blog .container-blog .box-blog {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}/*# sourceMappingURL=blogPage.css.map */

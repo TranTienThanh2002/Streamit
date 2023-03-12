@@ -1,0 +1,56 @@
+footer {
+  background-color: #191919;
+  margin-top: 100px;
+  padding: 50px 0;
+}
+footer .container {
+  display: grid;
+  grid-template-columns: 6fr 2fr 2fr;
+  grid-gap: 30px;
+}
+footer .container .box ul {
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+footer .container .box ul li {
+  margin-right: 30px;
+}
+footer .container .box i {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  align-items: center !important;
+  line-height: 40px !important;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-right: 20px;
+  margin-top: 50px;
+}
+footer .container .box .img {
+  margin-top: 40px;
+}
+footer .container .box .img span {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  footer .container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+  footer .container .box i, footer .container .box .img {
+    margin-top: 20px !important;
+  }
+  footer .container .box .flexSB {
+    justify-content: flex-start !important;
+  }
+  footer .container .box .img img, footer .container .box .img span {
+    margin-right: 20px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  footer .container .box i {
+    margin-top: 20px;
+  }
+}/*# sourceMappingURL=footer.css.map */

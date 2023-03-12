@@ -1,0 +1,54 @@
+.MovieBox {
+  width: 100%;
+  position: relative;
+  transition: all 0.5s ease;
+  border-left: 5px solid transparent;
+}
+.MovieBox:hover {
+  cursor: pointer;
+  border-left: 5px solid #e50813;
+  transform: scale3d(1.1, 1.1, 1) translate3d(6%, 0, 0) perspective(31.25em);
+  box-shadow: 0 0 0.73em rgba(0, 0, 0, 0.9);
+}
+.MovieBox::after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+  z-index: -1;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 0, rgba(20, 20, 20, 0.4) 50%, rgba(83, 100, 141, 0), 100%);
+}
+.MovieBox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.MovieBox .text {
+  padding: 70px 50px;
+}
+.MovieBox .text h3 {
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.MovieBox .text button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 426px) {
+  .MovieBox .text {
+    padding: 70px 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+  }
+}/*# sourceMappingURL=uCard.css.map */
